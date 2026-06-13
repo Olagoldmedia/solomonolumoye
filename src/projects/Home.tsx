@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Footer from '../Footer'
 import Section from '../Section'
 import Hero from '../Hero'
