@@ -1,4 +1,4 @@
-import React from 'react'
+
 import StickyTextReveal from './TextReveal'
 
 function Hero() {
