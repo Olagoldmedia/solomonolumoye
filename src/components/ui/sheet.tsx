@@ -69,7 +69,7 @@ function SheetContent({
         {showCloseButton && (
           <SheetPrimitive.Close data-slot="sheet-close" asChild>
             <Button
-              varient="default"
+              
               className="absolute border-none outline-none hover:bg-black/10 text-black bg-white/20 rounded-full p-2 top-3 right-3 z-[99991]"
               size="icon-sm"
             >
