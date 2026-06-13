@@ -2,12 +2,13 @@ import { useState } from 'react'
 import {Link} from "react-router-dom"
 import "./App.css"
 import Samson from "./assets/samson.jpg"
+import type { MouseEvent } from "react";
 
 
 function Footer() {   
     const [Show,SetShow]=useState(false);
     const [pos,SetPos]=useState({x: 0, y: 0});
-    const HandleMouseMove= ( e ) => {
+    const HandleMouseMove = (e: MouseEvent<HTMLDivElement>) => {
         SetPos({
             x: e.clientX- 100 ,
             y: e.clientY -100,
