@@ -1,4 +1,4 @@
-import React from 'react'
+
 import {Link} from "react-router-dom"
 import SideBar from "./SideBar.tsx"
 import { Menu } from 'lucide-react'
