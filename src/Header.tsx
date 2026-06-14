@@ -6,7 +6,7 @@ function Header() {
   return (
     <header className='flex justify-between items-center py-7 sticky top-0 left-0 px-10 text-[14px]  border-b-1 font-bold backdrop-blur-[10px]  z-[99]' >
         <Link to='/'>SAMSON OLUMOYE</Link>
-        <SideBar className='z-9999'>
+        <SideBar >
             <span className='lg:hidden'><Menu/></span>
         </SideBar>
         <nav className='gap-6 items-center justify-center hidden lg:flex'>
